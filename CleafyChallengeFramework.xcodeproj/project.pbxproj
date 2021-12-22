@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D685F632772824300F6620D /* CleafyChallengeFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F622772824300F6620D /* CleafyChallengeFramework.docc */; };
+		6D685F692772824300F6620D /* CleafyChallengeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D685F5E2772824300F6620D /* CleafyChallengeFramework.framework */; };
+		6D685F6E2772824300F6620D /* CleafyChallengeFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F6D2772824300F6620D /* CleafyChallengeFrameworkTests.swift */; };
+		6D685F6F2772824300F6620D /* CleafyChallengeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D685F612772824300F6620D /* CleafyChallengeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D685F782772851E00F6620D /* CleafyChallengeFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F622772824300F6620D /* CleafyChallengeFramework.docc */; };
+		6D685F7D2772864900F6620D /* MyCleafyChallengeFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F7C2772864900F6620D /* MyCleafyChallengeFramework.swift */; };
+		6D685F7E2772864900F6620D /* MyCleafyChallengeFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F7C2772864900F6620D /* MyCleafyChallengeFramework.swift */; };
+		6D685F812772877600F6620D /* StragazerResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F802772877600F6620D /* StragazerResponseModel.swift */; };
+		6D685F822772877600F6620D /* StragazerResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F802772877600F6620D /* StragazerResponseModel.swift */; };
+		6D685F84277287B600F6620D /* StargazerUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F83277287B600F6620D /* StargazerUser.swift */; };
+		6D685F85277287B600F6620D /* StargazerUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F83277287B600F6620D /* StargazerUser.swift */; };
+		6D685F87277287D600F6620D /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F86277287D600F6620D /* ErrorModel.swift */; };
+		6D685F88277287D600F6620D /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F86277287D600F6620D /* ErrorModel.swift */; };
+		6D685F8A277287F200F6620D /* StargazerRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F89277287F200F6620D /* StargazerRequestModel.swift */; };
+		6D685F8B277287F200F6620D /* StargazerRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F89277287F200F6620D /* StargazerRequestModel.swift */; };
+		6D685F8D2772880B00F6620D /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F8C2772880B00F6620D /* RequestModel.swift */; };
+		6D685F8E2772880B00F6620D /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F8C2772880B00F6620D /* RequestModel.swift */; };
+		6D685F902772883700F6620D /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F8F2772883700F6620D /* ResponseModel.swift */; };
+		6D685F912772883700F6620D /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F8F2772883700F6620D /* ResponseModel.swift */; };
+		6D685F942772887500F6620D /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F932772887500F6620D /* Services.swift */; };
+		6D685F952772887500F6620D /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F932772887500F6620D /* Services.swift */; };
+		6D685F972772888A00F6620D /* GitHubServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F962772888A00F6620D /* GitHubServiceManager.swift */; };
+		6D685F982772888A00F6620D /* GitHubServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F962772888A00F6620D /* GitHubServiceManager.swift */; };
+		6D685F9B277288F800F6620D /* ErrorKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F9A277288F800F6620D /* ErrorKey.swift */; };
+		6D685F9C277288F800F6620D /* ErrorKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F9A277288F800F6620D /* ErrorKey.swift */; };
+		6D685F9E27728ACB00F6620D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F9D27728ACB00F6620D /* Utility.swift */; };
+		6D685F9F27728ACB00F6620D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F9D27728ACB00F6620D /* Utility.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D685F6A2772824300F6620D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D685F552772824300F6620D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D685F5D2772824300F6620D;
+			remoteInfo = CleafyChallengeFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D685F5E2772824300F6620D /* CleafyChallengeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleafyChallengeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D685F612772824300F6620D /* CleafyChallengeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CleafyChallengeFramework.h; sourceTree = "<group>"; };
+		6D685F622772824300F6620D /* CleafyChallengeFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CleafyChallengeFramework.docc; sourceTree = "<group>"; };
+		6D685F682772824300F6620D /* CleafyChallengeFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleafyChallengeFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D685F6D2772824300F6620D /* CleafyChallengeFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleafyChallengeFrameworkTests.swift; sourceTree = "<group>"; };
+		6D685F7C2772864900F6620D /* MyCleafyChallengeFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCleafyChallengeFramework.swift; sourceTree = "<group>"; };
+		6D685F802772877600F6620D /* StragazerResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StragazerResponseModel.swift; sourceTree = "<group>"; };
+		6D685F83277287B600F6620D /* StargazerUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StargazerUser.swift; sourceTree = "<group>"; };
+		6D685F86277287D600F6620D /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		6D685F89277287F200F6620D /* StargazerRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StargazerRequestModel.swift; sourceTree = "<group>"; };
+		6D685F8C2772880B00F6620D /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		6D685F8F2772883700F6620D /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		6D685F932772887500F6620D /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		6D685F962772888A00F6620D /* GitHubServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubServiceManager.swift; sourceTree = "<group>"; };
+		6D685F9A277288F800F6620D /* ErrorKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorKey.swift; sourceTree = "<group>"; };
+		6D685F9D27728ACB00F6620D /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D685F5B2772824300F6620D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D685F652772824300F6620D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D685F692772824300F6620D /* CleafyChallengeFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D685F542772824300F6620D = {
+			isa = PBXGroup;
+			children = (
+				6D685F602772824300F6620D /* CleafyChallengeFramework */,
+				6D685F6C2772824300F6620D /* CleafyChallengeFrameworkTests */,
+				6D685F5F2772824300F6620D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D685F5F2772824300F6620D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D685F5E2772824300F6620D /* CleafyChallengeFramework.framework */,
+				6D685F682772824300F6620D /* CleafyChallengeFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D685F602772824300F6620D /* CleafyChallengeFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6D685F99277288B000F6620D /* Utilities */,
+				6D685F922772885100F6620D /* Network */,
+				6D685F7F2772873B00F6620D /* Model */,
+				6D685F7C2772864900F6620D /* MyCleafyChallengeFramework.swift */,
+				6D685F612772824300F6620D /* CleafyChallengeFramework.h */,
+				6D685F622772824300F6620D /* CleafyChallengeFramework.docc */,
+			);
+			path = CleafyChallengeFramework;
+			sourceTree = "<group>";
+		};
+		6D685F6C2772824300F6620D /* CleafyChallengeFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D685F6D2772824300F6620D /* CleafyChallengeFrameworkTests.swift */,
+			);
+			path = CleafyChallengeFrameworkTests;
+			sourceTree = "<group>";
+		};
+		6D685F7F2772873B00F6620D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D685F802772877600F6620D /* StragazerResponseModel.swift */,
+				6D685F83277287B600F6620D /* StargazerUser.swift */,
+				6D685F86277287D600F6620D /* ErrorModel.swift */,
+				6D685F89277287F200F6620D /* StargazerRequestModel.swift */,
+				6D685F8C2772880B00F6620D /* RequestModel.swift */,
+				6D685F8F2772883700F6620D /* ResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D685F922772885100F6620D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6D685F932772887500F6620D /* Services.swift */,
+				6D685F962772888A00F6620D /* GitHubServiceManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6D685F99277288B000F6620D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6D685F9A277288F800F6620D /* ErrorKey.swift */,
+				6D685F9D27728ACB00F6620D /* Utility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D685F592772824300F6620D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D685F6F2772824300F6620D /* CleafyChallengeFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6D685F5D2772824300F6620D /* CleafyChallengeFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D685F722772824300F6620D /* Build configuration list for PBXNativeTarget "CleafyChallengeFramework" */;
+			buildPhases = (
+				6D685F592772824300F6620D /* Headers */,
+				6D685F5A2772824300F6620D /* Sources */,
+				6D685F5B2772824300F6620D /* Frameworks */,
+				6D685F5C2772824300F6620D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleafyChallengeFramework;
+			productName = CleafyChallengeFramework;
+			productReference = 6D685F5E2772824300F6620D /* CleafyChallengeFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D685F672772824300F6620D /* CleafyChallengeFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D685F752772824300F6620D /* Build configuration list for PBXNativeTarget "CleafyChallengeFrameworkTests" */;
+			buildPhases = (
+				6D685F642772824300F6620D /* Sources */,
+				6D685F652772824300F6620D /* Frameworks */,
+				6D685F662772824300F6620D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D685F6B2772824300F6620D /* PBXTargetDependency */,
+			);
+			name = CleafyChallengeFrameworkTests;
+			productName = CleafyChallengeFrameworkTests;
+			productReference = 6D685F682772824300F6620D /* CleafyChallengeFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D685F552772824300F6620D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					6D685F5D2772824300F6620D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					6D685F672772824300F6620D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6D685F582772824300F6620D /* Build configuration list for PBXProject "CleafyChallengeFramework" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D685F542772824300F6620D;
+			productRefGroup = 6D685F5F2772824300F6620D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D685F5D2772824300F6620D /* CleafyChallengeFramework */,
+				6D685F672772824300F6620D /* CleafyChallengeFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D685F5C2772824300F6620D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D685F662772824300F6620D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D685F5A2772824300F6620D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D685F87277287D600F6620D /* ErrorModel.swift in Sources */,
+				6D685F84277287B600F6620D /* StargazerUser.swift in Sources */,
+				6D685F972772888A00F6620D /* GitHubServiceManager.swift in Sources */,
+				6D685F9B277288F800F6620D /* ErrorKey.swift in Sources */,
+				6D685F812772877600F6620D /* StragazerResponseModel.swift in Sources */,
+				6D685F8A277287F200F6620D /* StargazerRequestModel.swift in Sources */,
+				6D685F8D2772880B00F6620D /* RequestModel.swift in Sources */,
+				6D685F7D2772864900F6620D /* MyCleafyChallengeFramework.swift in Sources */,
+				6D685F9E27728ACB00F6620D /* Utility.swift in Sources */,
+				6D685F902772883700F6620D /* ResponseModel.swift in Sources */,
+				6D685F942772887500F6620D /* Services.swift in Sources */,
+				6D685F632772824300F6620D /* CleafyChallengeFramework.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D685F642772824300F6620D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D685F88277287D600F6620D /* ErrorModel.swift in Sources */,
+				6D685F912772883700F6620D /* ResponseModel.swift in Sources */,
+				6D685F7E2772864900F6620D /* MyCleafyChallengeFramework.swift in Sources */,
+				6D685F6E2772824300F6620D /* CleafyChallengeFrameworkTests.swift in Sources */,
+				6D685F9C277288F800F6620D /* ErrorKey.swift in Sources */,
+				6D685F85277287B600F6620D /* StargazerUser.swift in Sources */,
+				6D685F952772887500F6620D /* Services.swift in Sources */,
+				6D685F9F27728ACB00F6620D /* Utility.swift in Sources */,
+				6D685F982772888A00F6620D /* GitHubServiceManager.swift in Sources */,
+				6D685F8B277287F200F6620D /* StargazerRequestModel.swift in Sources */,
+				6D685F822772877600F6620D /* StragazerResponseModel.swift in Sources */,
+				6D685F782772851E00F6620D /* CleafyChallengeFramework.docc in Sources */,
+				6D685F8E2772880B00F6620D /* RequestModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D685F6B2772824300F6620D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D685F5D2772824300F6620D /* CleafyChallengeFramework */;
+			targetProxy = 6D685F6A2772824300F6620D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6D685F702772824300F6620D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D685F712772824300F6620D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D685F732772824300F6620D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_LOCATION = NO;
+				DEVELOPMENT_TEAM = M57CLLS9PA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.lucagaudino.CleafyChallengeFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D685F742772824300F6620D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_LOCATION = NO;
+				DEVELOPMENT_TEAM = M57CLLS9PA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.lucagaudino.CleafyChallengeFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D685F762772824300F6620D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M57CLLS9PA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.lucagaudino.CleafyChallengeFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D685F772772824300F6620D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M57CLLS9PA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.lucagaudino.CleafyChallengeFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D685F582772824300F6620D /* Build configuration list for PBXProject "CleafyChallengeFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D685F702772824300F6620D /* Debug */,
+				6D685F712772824300F6620D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D685F722772824300F6620D /* Build configuration list for PBXNativeTarget "CleafyChallengeFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D685F732772824300F6620D /* Debug */,
+				6D685F742772824300F6620D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D685F752772824300F6620D /* Build configuration list for PBXNativeTarget "CleafyChallengeFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D685F762772824300F6620D /* Debug */,
+				6D685F772772824300F6620D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D685F552772824300F6620D /* Project object */;
+}
