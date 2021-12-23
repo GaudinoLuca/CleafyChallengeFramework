@@ -19,7 +19,7 @@ class CleafyChallengeFrameworkTests: XCTestCase {
     }
 
     func testExample() throws {
-        let CCF = MyCleafyChallengeFramework()
+        let CCF = CleafyChallenge()
         CCF.getStargazer(owner: "octocat", repo: "hello-world"){ (result) in
            print(result)
         }

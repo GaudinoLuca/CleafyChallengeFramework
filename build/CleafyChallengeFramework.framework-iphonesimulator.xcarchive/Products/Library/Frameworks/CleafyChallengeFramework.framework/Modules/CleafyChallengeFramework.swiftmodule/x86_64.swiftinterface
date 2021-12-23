@@ -7,13 +7,14 @@ import Swift
 import UIKit
 import _Concurrency
 @_hasMissingDesignatedInitializers public class ErrorModel : Swift.Error {
+  public var messageKey: Swift.String
   @objc deinit
 }
 public struct StargazerUser : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public struct MyCleafyChallengeFramework {
+public struct CleafyChallenge {
   public init()
   public func getStargazer(owner: Swift.String, repo: Swift.String, completion: @escaping (Swift.Result<[CleafyChallengeFramework.StargazerUser], CleafyChallengeFramework.ErrorModel>) -> Swift.Void)
 }

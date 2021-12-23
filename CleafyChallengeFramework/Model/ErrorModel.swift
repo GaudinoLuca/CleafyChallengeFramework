@@ -9,7 +9,7 @@ import Foundation
 public class ErrorModel: Error {
     
     // MARK: - Properties
-    var messageKey: String
+    public var messageKey: String
     
     init(_ messageKey: String) {
         self.messageKey = messageKey
@@ -17,5 +17,9 @@ public class ErrorModel: Error {
     
     class func generalError() -> ErrorModel {
         return ErrorModel(ErrorKey.general.rawValue)
+    }
+    
+    class func specificError(error: String) -> ErrorModel {
+        return ErrorModel(error)
     }
 }

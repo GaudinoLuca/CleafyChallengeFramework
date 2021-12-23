@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/CleafyChallengeFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+IpCLwlsRhMItp31w3v7IqxB5IA=
+		QjRoM7b7mra9fAQuQh0OJg57ORA=
 		</data>
 		<key>Modules/CleafyChallengeFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		PKuMjr156gC9B/ZNfbxg615cB6w=
+		9lBV4qSwogXnNr2LuyStbXxGsjM=
 		</data>
 		<key>Modules/CleafyChallengeFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/CleafyChallengeFramework.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		+IpCLwlsRhMItp31w3v7IqxB5IA=
+		QjRoM7b7mra9fAQuQh0OJg57ORA=
 		</data>
 		<key>Modules/CleafyChallengeFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		PKuMjr156gC9B/ZNfbxg615cB6w=
+		9lBV4qSwogXnNr2LuyStbXxGsjM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qG4bi9cH3R35k97IXpHOG3X7q2xYJdX7VV0zB1kLr4o=
+			88ZksKtGLKCHWTVo9GXKIYUZvDG3yjzwVhXqBGuPH8U=
 			</data>
 		</dict>
 		<key>Modules/CleafyChallengeFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QDOlTnvHFitsxXQKPg7gpgnWYJrDELlqOiUWwVCiuyA=
+			/Rh/xakGMIBOymguOXIBpnFp0ylbjjFcpwpHMT/bY2o=
 			</data>
 		</dict>
 		<key>Modules/CleafyChallengeFramework.swiftmodule/arm64.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qG4bi9cH3R35k97IXpHOG3X7q2xYJdX7VV0zB1kLr4o=
+			88ZksKtGLKCHWTVo9GXKIYUZvDG3yjzwVhXqBGuPH8U=
 			</data>
 		</dict>
 		<key>Modules/CleafyChallengeFramework.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QDOlTnvHFitsxXQKPg7gpgnWYJrDELlqOiUWwVCiuyA=
+			/Rh/xakGMIBOymguOXIBpnFp0ylbjjFcpwpHMT/bY2o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

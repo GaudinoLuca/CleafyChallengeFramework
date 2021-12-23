@@ -7,40 +7,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "16628210-95C5-4ADF-8A35-A8FAF3D1F092"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CleafyChallengeFrameworkTests/CleafyChallengeFrameworkTests.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "testExample()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8D7F32A6-BFBE-43D2-AACA-81019C98FE84"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CleafyChallengeFrameworkTests/CleafyChallengeFrameworkTests.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "testExample()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "3B84C10F-B53E-4662-8FAC-3FA9BF66CF69"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CleafyChallengeFramework/Utilities/Utility.swift"
@@ -80,6 +48,36 @@
                   startingLineNumber = "18"
                   endingLineNumber = "18"
                   offsetFromSymbolStart = "346">
+               </Location>
+               <Location
+                  uuid = "3B84C10F-B53E-4662-8FAC-3FA9BF66CF69 - 6cbfb93bdcc1ef86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CleafyChallengeFrameworkTests.Utility.isVPNConnected() -&gt; Swift.Bool"
+                  moduleName = "CleafyChallengeFrameworkTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucagaudino/Documents/Swift%20Projects/CleafyChallengeFramework/CleafyChallengeFramework/Utilities/Utility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "675">
+               </Location>
+               <Location
+                  uuid = "3B84C10F-B53E-4662-8FAC-3FA9BF66CF69 - b448683316c65e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CleafyChallengeFramework.Utility.isVPNConnected() -&gt; Swift.Bool"
+                  moduleName = "CleafyChallengeFramework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucagaudino/Documents/Swift%20Projects/CleafyChallengeFramework/CleafyChallengeFramework/Utilities/Utility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "675">
                </Location>
             </Locations>
          </BreakpointContent>

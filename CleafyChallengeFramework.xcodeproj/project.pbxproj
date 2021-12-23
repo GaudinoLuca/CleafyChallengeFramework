@@ -12,8 +12,8 @@
 		6D685F6E2772824300F6620D /* CleafyChallengeFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F6D2772824300F6620D /* CleafyChallengeFrameworkTests.swift */; };
 		6D685F6F2772824300F6620D /* CleafyChallengeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D685F612772824300F6620D /* CleafyChallengeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D685F782772851E00F6620D /* CleafyChallengeFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F622772824300F6620D /* CleafyChallengeFramework.docc */; };
-		6D685F7D2772864900F6620D /* MyCleafyChallengeFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F7C2772864900F6620D /* MyCleafyChallengeFramework.swift */; };
-		6D685F7E2772864900F6620D /* MyCleafyChallengeFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F7C2772864900F6620D /* MyCleafyChallengeFramework.swift */; };
+		6D685F7D2772864900F6620D /* CleafyChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F7C2772864900F6620D /* CleafyChallenge.swift */; };
+		6D685F7E2772864900F6620D /* CleafyChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F7C2772864900F6620D /* CleafyChallenge.swift */; };
 		6D685F812772877600F6620D /* StragazerResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F802772877600F6620D /* StragazerResponseModel.swift */; };
 		6D685F822772877600F6620D /* StragazerResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F802772877600F6620D /* StragazerResponseModel.swift */; };
 		6D685F84277287B600F6620D /* StargazerUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F83277287B600F6620D /* StargazerUser.swift */; };
@@ -52,7 +52,7 @@
 		6D685F622772824300F6620D /* CleafyChallengeFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CleafyChallengeFramework.docc; sourceTree = "<group>"; };
 		6D685F682772824300F6620D /* CleafyChallengeFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleafyChallengeFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D685F6D2772824300F6620D /* CleafyChallengeFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleafyChallengeFrameworkTests.swift; sourceTree = "<group>"; };
-		6D685F7C2772864900F6620D /* MyCleafyChallengeFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCleafyChallengeFramework.swift; sourceTree = "<group>"; };
+		6D685F7C2772864900F6620D /* CleafyChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleafyChallenge.swift; sourceTree = "<group>"; };
 		6D685F802772877600F6620D /* StragazerResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StragazerResponseModel.swift; sourceTree = "<group>"; };
 		6D685F83277287B600F6620D /* StargazerUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StargazerUser.swift; sourceTree = "<group>"; };
 		6D685F86277287D600F6620D /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 				6D685F99277288B000F6620D /* Utilities */,
 				6D685F922772885100F6620D /* Network */,
 				6D685F7F2772873B00F6620D /* Model */,
-				6D685F7C2772864900F6620D /* MyCleafyChallengeFramework.swift */,
+				6D685F7C2772864900F6620D /* CleafyChallenge.swift */,
 				6D685F612772824300F6620D /* CleafyChallengeFramework.h */,
 				6D685F622772824300F6620D /* CleafyChallengeFramework.docc */,
 			);
@@ -270,7 +270,7 @@
 				6D685F812772877600F6620D /* StragazerResponseModel.swift in Sources */,
 				6D685F8A277287F200F6620D /* StargazerRequestModel.swift in Sources */,
 				6D685F8D2772880B00F6620D /* RequestModel.swift in Sources */,
-				6D685F7D2772864900F6620D /* MyCleafyChallengeFramework.swift in Sources */,
+				6D685F7D2772864900F6620D /* CleafyChallenge.swift in Sources */,
 				6D685F9E27728ACB00F6620D /* Utility.swift in Sources */,
 				6D685F902772883700F6620D /* ResponseModel.swift in Sources */,
 				6D685F942772887500F6620D /* Services.swift in Sources */,
@@ -284,7 +284,7 @@
 			files = (
 				6D685F88277287D600F6620D /* ErrorModel.swift in Sources */,
 				6D685F912772883700F6620D /* ResponseModel.swift in Sources */,
-				6D685F7E2772864900F6620D /* MyCleafyChallengeFramework.swift in Sources */,
+				6D685F7E2772864900F6620D /* CleafyChallenge.swift in Sources */,
 				6D685F6E2772824300F6620D /* CleafyChallengeFrameworkTests.swift in Sources */,
 				6D685F9C277288F800F6620D /* ErrorKey.swift in Sources */,
 				6D685F85277287B600F6620D /* StargazerUser.swift in Sources */,
